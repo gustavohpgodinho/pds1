@@ -1,0 +1,22 @@
+//cria um ponteiro onde vamos armazenar os dados que serão lidos:
+
+FILE *variavel;
+
+// abrindo o arquivo:
+// modo_abertura pode ser: r, w ou a
+variavel = fopen("caminho", "modo_abertura");
+
+// leitura do arquivo:
+fscan(variavel, "%d %d", &n, &m);
+
+// fechando o arquivo:
+fclose(variavel);
+
+// escrevendo no arquivo:
+fprintf(variavel, "%d %d", n, m);
+fprintf(variavel, "\n")
+
+
+// compilando: 
+gcc -c selection.c (compilando o modulo selection)
+gcc p1_leitura_dados.c selection.o -o exec

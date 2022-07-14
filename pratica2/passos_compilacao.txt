@@ -1,0 +1,25 @@
+passos:
+
+1. cria as funções junto com os módulos necessários para 
+   executá-las e junto com o #include "nome_modulo.h" e 
+   salva no arquivo nome_modulo.c
+2. cria o arquivo nome_modulo.h só com o cabeçalho das 
+   funções, ou seja, tudo que está antes da primeira chave,
+   não pode esquecer de colocar ;.
+3. no arquivo c principal, chama o módulo através de 
+   # include "nome_modulo.h", executa as funções necessárias 
+   do módulo.
+#=====================================
+COMPILAÇÃO
+#=====================================
+4. Compila o arquivo nome_modulo.c através do comando:
+   gcc -c nome_modulo.c, isso fará com que se crie um  
+   arquivo nome_modulo.o no diretório (pasta) que estamos 
+   usando.
+
+5. Compila o arquivo principal: gcc arquivo.c nome_modulo.o
+# esse gera o a.exe
+Para colocar nome no executável basta:
+gcc arquivo.c nome_modulo.o -o nome_executavel.
+
+6. Digitar na linha de comando nome_executavel.exe

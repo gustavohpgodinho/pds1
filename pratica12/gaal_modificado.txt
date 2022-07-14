@@ -1,0 +1,7 @@
+
+O(A) aluno(a) 2 eh Ahmad Jamal e as suas notas nas provas foram: 8.50 e 4.80.
+O(A) aluno(a) 13 eh Luis Inacio e as suas notas nas provas foram: 7.50 e 6.10.
+O(A) aluno(a) 15 eh Charles de Gaulle e as suas notas nas provas foram: 5.00 e 4.40.
+O(A) aluno(a) 21 eh Valeska Popozuda e as suas notas nas provas foram: 9.00 e 9.00.
+O(A) aluno(a) 9 eh Tony Parker e as suas notas nas provas foram: 8.00 e 5.00.
+O(A) aluno(a) 0 eh Tupac Shakur e as suas notas nas provas foram: 4.40 e 3.80.
